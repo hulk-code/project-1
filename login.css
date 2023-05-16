@@ -1,0 +1,69 @@
+body {
+    background-image: url(/education.jpg);
+    background-size: cover;
+
+    
+}
+.logu{
+width: 320px;
+height: 350px;
+background:#35363A;
+color: rgb(255, 255, 255);
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 50px 30px;
+}
+.logusize{
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: calc(55% - 50px);
+}
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.logu p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.logu input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.logu input[type="text"] , input[type="password"]{
+
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 10px;
+}
+.logu input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+.logu a{
+    color: white;
+    
+}
+.logu input[type="submit"]:hover{
+    color: green;
+    background-color: black;
+}
